@@ -1,0 +1,19 @@
+{
+  "name": "learncsit-server",
+  "version": "1.0.0",
+  "description": "This is the backend server for LearnCSIT which will handle computations for the frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Pasang Lama",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "firebase-admin": "^12.6.0",
+    "mathjax-node": "^2.1.1"
+  }
+}
